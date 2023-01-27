@@ -1,0 +1,259 @@
+*{
+    /* border: 1px solid red; */
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0px;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    background-color: black;
+    position: fixed;
+    top: 0px;
+    height: 60px;
+}
+
+.nav-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.navbar-brand{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 5%;
+}
+
+.navbar-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60%;
+    height: 100%;
+}
+
+.nav-item {
+    margin: 10px;
+    width: 100%;
+    height: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: rgb(238, 15, 15);
+}
+
+.background {
+    z-index: -1;
+    width: 100%;
+    position: fixed;
+    margin-top: -100px;
+}
+
+.showfeats {
+    z-index: 1;
+    height: 7em;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    display: flex;
+    font-size: 6em;
+    text-shadow: -1px 1px 2px #000,
+                  1px 1px 0 #000,
+                  1px -1px 0 #000,
+                  -1px -1px 0 #000;
+}
+
+
+
+
+
+.main-show-area{
+    background-color: white;
+    height: 5in;
+    justify-content: center;
+    border-bottom: 5in gray;
+    padding-bottom: 1in;
+    
+}
+
+.month {
+    justify-content: center;
+    text-align: left;
+    padding-left: 10%;
+    border: 2px;
+    
+    
+}
+
+.ask{
+    align-content: center;
+    padding-top: 1in;
+    padding-left: 20%;
+    padding-right: 20%;
+    
+}
+
+.monthbox{
+    border: 2px solid gray;
+    height: 5mm;
+    background-color: rgba(128, 128, 128, 0.178);
+    display: flex;
+}
+    
+.show-img{
+    padding-top: 1in;
+    display: flex;
+    align-items: center;
+    width: 7.5in;
+    padding-bottom: .2in;
+}
+
+.details{
+    display: table-column;
+    padding-left: .4in;
+    padding-right: .4in;
+}
+
+button{
+    height: 12mm;
+    width: 1.7in;
+    align-items: center;
+    background-color: yellow;
+}
+.line-1 {
+  height: 1px;
+  background: gray;
+  width: 7.5in;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.wrap-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 350px 350px 350px;
+    grid-gap: 60px;
+}
+
+.box {
+    /* object-fit: cover; */
+    max-width: 300px;
+    height: auto;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.grid-image{
+    object-fit: cover;
+    max-width: 300px;
+    height: auto;
+}
+
+.grid-text {
+    text-align: center;
+}
+
+footer {
+    margin-bottom: 0;
+
+}
+
+.bottom {
+    background-color: black;
+    color: white;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding-top: 30px;
+    
+    justify-content: space-evenly;
+}
+
+.map{
+    width: 250px;
+    padding: 2%;
+    padding-left: 100px;
+}
+
+.maping {
+    width: 250px;
+}
+
+.footinfo{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    font: .6em;
+}
+
+.footshows{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    font: .6em;
+}
+
+.social {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    font: .6em;
+}
+
+.foothead {
+    font-size: 2em;
+}
+
+.tiny{
+    margin: 6px;
+}
